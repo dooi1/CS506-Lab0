@@ -29,10 +29,10 @@ def test_nearest_neighbor():
     ### YOUR CODE HEREh
 
     vector = np.array([[1, 0], [0, 1], [1, 1], [-1, 0]])  
-    target_vector = np.array([0.9, 0.1])
+    target_vector = np.array([0.5, 0.5])
     
     result = nearest_neighbor(target_vector, vector)
     
-    expected_index = 0 
+    expected_index = 2 
     
     assert result == expected_index, f"Expected index {expected_index}, but got {result}"
