@@ -53,5 +53,5 @@ def nearest_neighbor(target_vector, vectors):
         if closet_simil > most_sim:
             most_sim = closet_simil
             row_index = i
-        return row_index
+    return row_index
             
