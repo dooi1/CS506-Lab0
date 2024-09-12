@@ -28,8 +28,8 @@ def test_cosine_similarity():
 def test_nearest_neighbor():
     ### YOUR CODE HEREh
 
-    vector = np.array([[1, 0], [0, 1], [1, 1], [-1, 0]])  
-    target_vector = np.array([0.5, 0.5])
+    vector = np.array([[1, 3], [2, 1], [1, 2]])  
+    target_vector = np.array([1, 2])
     
     result = nearest_neighbor(target_vector, vector)
     
