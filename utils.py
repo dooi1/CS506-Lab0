@@ -28,7 +28,7 @@ def cosine_similarity(v1, v2):
     # Hint: Use `dot_product` and `np.linalg.norm`.
     '''
     ### YOUR CODE HERE
-    numer = np.dot_product(v1,v2)
+    numer = dot_product(v1,v2)
     eucli_v1 = np.linalg.norm(v1)
     eucli_v2 = np.linalg.norm(v2)
     return numer / (eucli_v1 * eucli_v2)
