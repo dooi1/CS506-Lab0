@@ -29,7 +29,7 @@ def test_nearest_neighbor():
     ### YOUR CODE HEREh
 
     vector = np.array([[1, 0], [0, 1], [1, 1], [-1, 0]])  
-    target_vector = np.array([0.5, 0.5])
+    target_vector = np.array([0.9, 0.1])
     
     result = nearest_neighbor(target_vector, vector)
     
