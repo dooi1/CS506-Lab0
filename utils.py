@@ -48,7 +48,7 @@ def nearest_neighbor(target_vector, vectors):
 
     most_sim = -1
     row_index = -1
-    for i,vec in vectors: 
+    for i,vec in enumerate(vectors): 
         closet_simil = cosine_similarity(vec,target_vector)
         if closet_simil > most_sim:
             most_sim = closet_simil
